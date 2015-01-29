@@ -1,0 +1,312 @@
+html, body, dl, dt, dd, ul, p, h1, h2, h3, h4, h5, h6, form {
+    margin: 0;
+    padding: 0;
+    font:12px/1.6 "Segoe UI",Tahoma,Arial;word-wrap:break-word;
+}
+td, th, div {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+li {
+    list-style: outside none none;
+}
+img {
+    border: 0 none;
+}
+button{
+    cursor: pointer;
+}
+.cc:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+a {
+    color: #2e9f54;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+}
+body{
+    background-color: #f0f0f0;
+}
+.header{
+    background-color: #2e9f54;
+}
+.nav{
+    margin: 0 auto;
+    width: 1200px;
+}
+.logo{
+    display: inline-block;
+    float:left;
+    width:120px;
+    height:45px;
+}
+.nav ul{
+    float:left;
+}
+.nav li{
+    float: left;
+}
+.nav .current{
+    background-color: #5cb85c;
+}
+.nav a{
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+}
+.nav .right{
+    float:right;
+}
+.sub-nav{
+
+}
+.sub-nav ul{
+    width:1180px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+}
+.sub-nav li{
+    float:left;
+}
+.sub-nav a{
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.container{
+    width:1200px;
+    margin: 20px auto;
+}
+.container .left{
+    float: left;
+    width:820px;
+}
+.sort{
+    border-bottom:1px solid #e3e3e3;
+    padding-bottom: 10px;
+}
+.sort a{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+.sort .current{
+    background-color:#2e9f54;
+    color: #fff;
+}
+.sort .btn{
+    float: right;
+    background-color:#2e9f54;
+    color: #fff;
+}
+.left-box{
+    padding:20px;
+    background-color:#fff;
+}
+.item{
+    overflow: hidden;
+    border-bottom: 1px solid #e3e3e3;
+    padding-top: 10px;
+    position: relative;
+}
+.item .pic{
+    float:left;
+}
+.item .pic img{
+    width:50px;
+    height:50px;
+    border-radius: 30px;
+}
+.item .content{
+    margin-left: 60px;
+}
+.item .part1{
+    font-weight: bold;
+    font-size: 14px;
+}
+.item .part2{
+
+}
+.item .part3{
+    font-size: 14px;
+    margin-top:10px;
+}
+.item .part3 a{
+    color:#999;
+    display: inline;
+    margin-right: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+.item .part3 span{
+    float:left;
+    margin-right: 10px;
+}
+.digg-icon{
+    display: inline-block;
+    background-position:0 -40px;
+    background-image: url(../images/icons.png);
+    width:18px;
+    height:18px;
+}
+.msg-icon{
+    display: inline-block;
+    background-position:0 -100px;
+    background-image: url(../images/icons.png);
+    width:18px;
+    height:18px;
+}
+.like-icon{
+    display: inline-block;
+    background-position:0 -160px;
+    background-image: url(../images/icons.png);
+    width:18px;
+    height:18px;
+}
+.author{
+    color:#333;
+}
+.item .tags{
+    float:right;
+}
+.pages{
+    margin-top: 20px;
+}
+.pages a {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #666;
+    display: inline-block;
+    margin-right: 3px;
+    padding: 5px 12px;
+}
+.pages a:hover {
+    background-color:#2e9f54;
+    color: #fff;
+    border: 1px solid #2e9f54;
+}
+.pages .current {
+    background-color: #2e9f54;
+    color: #fff;
+    border: 1px solid #2e9f54;
+}
+.container .right{
+    float: right;
+    width: 360px;
+}
+.footer{
+
+}
+.footer .box{
+    width:1180px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding:10px;
+    font-size:14px;
+}
+.links{
+    font-size: 14px;
+}
+.links a{
+    display: inline-block;
+    padding:10px;
+}
+.copy{
+}
+.box{
+    background-color: #fff;
+}
+
+/* login */
+.account-form{
+    width:450px;
+    margin: 0 auto;
+    text-align: center;
+}
+.account-form .row{
+    margin:30px 0;
+}
+.account-form h1{
+    font-size: 30px;
+    color: #2e9f54;
+}
+.account-form input{
+    font-size: 18px;
+    width: 400px;
+    height: 45px;
+    text-indent: 10px;
+    border: 1px solid #2e9f54;
+    border-radius: 4px;
+}
+.account-form button{
+    font-size: 18px;
+    background-color: #2e9f54;
+    width: 400px;
+    height: 45px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+.account-box{
+    text-align: center;
+    background-color: #fff;
+    padding:30px;
+    font-size: 18px;
+}
+.account-box span{
+}
+.account-box a{
+    display: block;
+    background-color: #2e9f54;
+    color: #fff;
+    margin:30px auto 0 auto;
+    width: 200px;
+    height:45px;
+    line-height: 50px;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+/* topic detail */
+.topic{
+    background-color: #fff;
+    padding:20px;
+}
+.topic-pic{
+    float:right;
+}
+.topic-pic img{
+    width:100px;
+    height: 100px;
+    float: right;
+}
+.topic-content{
+    margin-right:  110px;
+}
+.topic-content h1{
+    display: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2e9f54;
+}
